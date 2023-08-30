@@ -1,12 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Header from './Pages/Header/Header';
 
 const App = () => {
   return (
-    <div className=''>
-      <Fade top>
-        Its working
-      </Fade>
+    <div className='m-5'>
+        <Header />
     </div>
   )
 }
