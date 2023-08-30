@@ -4,8 +4,11 @@ import Header from './Pages/Header/Header';
 
 const App = () => {
   return (
-    <div className='m-5'>
-        <Header />
+    <div >
+        <Fade top>
+          <Header />
+        </Fade>
+        
     </div>
   )
 }
