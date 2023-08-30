@@ -5,10 +5,10 @@
 
     const Header = () => {
     return (
-        <header className='flex justify-between m-5 sticky top-0 '>
+        <header className='flex justify-between m-5 sticky top-0 pl-10 pr-10 '>
             <Fade left>
                 <div>
-                    <img src={logo} alt="Logo png" height={42} width={42} className='rounded' />
+                    <img src={logo} alt="Logo png" height={52} width={42} className='rounded' />
                 </div>
             </Fade>
             <Fade top>

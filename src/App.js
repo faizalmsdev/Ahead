@@ -5,10 +5,7 @@ import Header from './Pages/Header/Header';
 const App = () => {
   return (
     <div >
-        <Fade top>
-          <Header />
-        </Fade>
-        
+          <Header />       
     </div>
   )
 }
