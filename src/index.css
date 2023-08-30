@@ -7,3 +7,72 @@
 *{
     font-family: 'poppins', sans-serif;
 }
+
+.container {
+    position: relative;
+    width: 800px; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    /* background-color: rgb(232, 9, 9); */
+}
+
+.circle {
+    height: 320px;
+    width: 320px;
+    background-color: #c6b5b585;
+    border-radius: 50%;
+    position: absolute; /* Use absolute positioning for better alignment */
+    left: calc(50% - 160px); /* Center the circle horizontally within the dotted-circle */
+    top: calc(50% - 160px); /* Center the circle vertically within the dotted-circle */
+    z-index: 1; /* Place it above other elements */
+}
+
+.dotted-circle {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border: 4px dashed #fff;
+    border-radius: 50%;
+    left: calc(50% - 240px); /* Center the circle horizontally */
+    top: calc(50% - 240px); /* Center the circle vertically */
+}
+
+.mobile {
+    position: absolute;
+    left: calc(50% - 128px); /* Center the mobile element horizontally */
+    top: calc(50% - 255px); /* Center the mobile element vertically */
+    z-index: 2;
+}
+
+.ss{
+    position: absolute;
+    top: 50%; /* Position at the center vertically */
+    left: 50%; /* Position at the center horizontally */
+    transform: translate(-50%, -50%); /* Center the .ss element within the .mobile element */
+    z-index: 1;
+}
+
+.ghost{
+    position: absolute;
+    top: 40% ;
+    left: 51%;
+    transform: rotate(12deg);
+}
+
+.ghost2{
+    position: absolute;
+    top: 40% ;
+    left: 82%;
+    transform: rotate(12deg);
+}
+
+.ghost3{
+    position: absolute;
+    top:4.5% ;
+    left: 75%;
+    transform: rotate(360deg);
+    z-index: 10;
+}
