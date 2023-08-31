@@ -97,3 +97,14 @@
 .hide-scroll-bar::-webkit-scrollbar {
     display: none;
 }
+
+.circle2 {
+    height: 160px;
+    width: 160px;
+    background-color: #c6b5b585;
+    border-radius: 50%;
+    position: relative; /* Use absolute positioning for better alignment */
+    left: 20px;
+    top: 10px;
+    z-index: 1; 
+}

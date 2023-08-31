@@ -4,6 +4,7 @@ import Hero from './Pages/Hero/Hero';
 import TextRep from './Components/TextRep';
 import { text1 } from './Constants';
 import Cards from './Pages/Card/Cards';
+import BigCard from './Pages/Hero/BigCard';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Hero />
           <TextRep {...text1} />
           <Cards />
+          <BigCard />
     </div>
   )
 }
