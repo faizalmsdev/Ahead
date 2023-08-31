@@ -1,5 +1,3 @@
-
-
     const TextRep = ({title,para,para2}) => {
     return (
         <section className="section-m flex flex-1 gap-[120px] items-start pr-[42px]">
