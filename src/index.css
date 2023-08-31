@@ -6,6 +6,7 @@
 
 *{
     font-family: 'poppins', sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -74,5 +75,17 @@
     top:4.5% ;
     left: 75%;
     transform: rotate(360deg);
-    z-index: 10;
+    z-index: 0;
+}
+
+.header{
+    z-index: 100;
+    padding: 12px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.section-m{
+    margin-left: 120px;
+    padding-top: 100px;
 }

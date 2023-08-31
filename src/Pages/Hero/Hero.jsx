@@ -11,8 +11,7 @@ import { Slide,Flip } from 'react-reveal';
     const Hero = () => {
     return (
         <section className='p-10'>
-        
-            <div className='rounded-xl flex flex-row pl-[22px] pr-[52px] bg-slate-200 pt-[40px] pb-[120px] h-[650px] absolute w-[94%]'>
+            <div className='rounded-xl flex flex-row pl-[22px] pr-[52px] bg-slate-200 pt-[40px] pb-[120px] h-[650px] ml-10 w-[94%]'>
                     <Slide left>
                         <div className='ml-10 mt-[80px] '>
                             <h3 className=''>Ahead app</h3>
